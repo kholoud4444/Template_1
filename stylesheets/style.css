@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    scroll-behavior: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    top: 0;
+    background-color: black;
+    color: white;
+}
+#navbar .container1{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+
+
+
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+}
+.nav-items {
+  font-size: 1.2rem;
+  display: flex;
+  color: #fff;
+  margin: 0 5rem;
+  padding: 1rem 0;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+.navbarApp{
+    border-radius: 10px;
+    color: white;
+    background-color: #3A5925;
+    font-size: 1.2rem;
+    display: flex;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+/* End of navbar works */
+#firstPanel{
+    height: 80vh;
+    background-image: url("../imgs/bg.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#firstPanel_section{
+    position: relative;
+    height: 40vh;
+    width: 60vw;
+    top: 25%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#firstPanel_sectionText{
+    text-align: center;
+    font-size: 80px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+#firstPanel_sectionButton{
+
+    padding: 30px;
+    cursor: pointer;
+    width: 40vw;
+    font-size: 40px;
+    color: white;
+    margin-top: 15vh;
+    border: none;
+    background: #3A5925;
+}
+/* End of section1 works */
+
+
+#secondPanel{
+    display: flex;
+}
+
+.secondPanel_section{
+    width: 50vw;
+    margin: 20px;
+}
+
+#secondPanel_Text{
+    padding: 0px 50px;
+}
+
+#secondPanel_sectionHeader{
+    margin-top: 15vh;
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#secondPanel_sectionText{
+    margin-top: 2vh;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 30px;
+}
+
+#secondPanel_sectionButton{
+    margin-top: 5vh;
+    margin-left: 12vw;
+    color: white;
+    height: 40px;
+    width: 20%;
+    border: none;
+    background: #3A5925;
+    font-size: 1.0625rem;
+    cursor: pointer;
+}
+
+#secondPanel_sectionImgs{
+    display: flex;
+
+
+}
+
+.secondPanel_sectionImgs_panel{
+    margin-top: 100px;
+}
+
+#sectionImgs_img1{
+    height: 40vh;
+    width: 20vw;
+}
+
+.sectionImgs_img{
+    height: 20vh;
+    width: 10vw;
+    margin-left: 10px;
+
+}
+
+
+#thirdPanel{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: rgb(248, 245, 245);
+}
+
+.thirdPanel_card{
+    margin: 50px;
+    text-align: center;
+}
+
+#thirdPanel_card1{
+    background-image: url("../imgs/model7.webp");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+
+#thirdPanel_card2{
+    background-image: url("../imgs/model8.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#thirdPanel_card3{
+    background-image: url("../imgs/model9.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+      height: 30vh;
+}
+
+.thirdPanel_cardText{
+    text-align: center;
+    color: white;
+    margin-top: 5vh;
+    font-size: 50px;
+    padding: 0rem 1rem 0rem 1rem;
+
+}
+
+.thirdPanel_cardButton{
+    margin-top: 5vh;
+    color: white;
+    height: 40px;
+    width: 50%;
+    border: none;
+    background: #3A5925;
+    font-size: 0.9625rem;
+    cursor: pointer;
+}
